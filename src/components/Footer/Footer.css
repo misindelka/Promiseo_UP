@@ -1,0 +1,118 @@
+.footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-top: 2px solid rgb(149, 177, 100);
+}
+
+.footer-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.footer-nav {
+    display: flex;
+    flex-direction: row;
+}
+
+.footer-nav-links {
+    color: #000;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    margin: 0 10px 0 10px;
+    font-size: 14px;
+}
+
+.item-number {
+    margin-top: 20px;
+}
+
+.foot-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(87, 87, 87);
+    color: #fff;
+    border-radius: 100%;
+    height: 25px;
+    width: 25px;
+}
+
+.foot-icons-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 70px;
+}
+
+.footer-lower-container {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.footer-lower-left {
+    display: flex;
+    align-items: center;
+    width: 60%;
+    background-color: rgb(149, 177, 100);
+}
+
+.footer-left-text {
+    font-size: small;
+    margin-left: 10%;
+}
+
+.footer-lower-right {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 40%;
+    float: right;
+    color: #fff;
+    background-color: dimgray;
+    font-size: 12px;
+}
+
+.footer-right-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.footer-lower-icon {
+    margin-right: 10px;
+    width: 15px;
+    filter: invert(1);
+    fill: currentColor;
+}
+
+@media screen and (max-width: 780px) {
+    .footer-container {
+        align-items: center;
+        padding: 0;
+    }
+    .footer-nav {
+        display: none
+    }
+    .footer-lower-container {
+        flex-direction: column;
+    }
+    .footer-lower-left {
+        width: 100%;
+        height: 30px;
+        justify-content: center;
+    }
+    .footer-left-text {
+        margin: 0;
+    }
+    .footer-lower-right {
+        width: 100%;
+    }
+    .footer-right-container {
+        font-size: 10px;
+    }
+}
