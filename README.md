@@ -2,7 +2,7 @@
 
 https://user-images.githubusercontent.com/57225644/126060376-076c6a42-28e2-45a9-863e-962d523e02f8.png
 
-
+sample is available here : https://promiseo-assign.herokuapp.com/
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
